@@ -4,8 +4,7 @@ The board is made by pjrc, please see documentation at there webpage.
 
 This is just a 'proof of concept'! I wanted to find out if I can made
 a ulisp version for this board.
-I started with ulisp for arm processors (currently M0+, M0, M3, M4 are supported)
-and it needed just a few changes to get it up and running.
+I started with ulisp for arm processors and it needed just a few changes to get it up and running.
 I did not test any hardware features of the board, I just wanted to run ulisp.
 As long as there is no interest from the comunity, I will not go on doing additional tests.
 
