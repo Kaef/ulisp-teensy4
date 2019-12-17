@@ -1,6 +1,6 @@
 # Note for Teensy-4.0 board support
 This is a fork of ulisp.arm with added support for Teensy-4.0 board.
-The board is made by pjrc, please see documentation at there webpage.
+The board is made by pjrc, please see documentation at their webpage.
 
 This is just a 'proof of concept'! I wanted to find out if I can made
 a ulisp version for this board.
