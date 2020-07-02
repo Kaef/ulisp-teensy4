@@ -201,7 +201,10 @@ uint8_t _end;
 #define SYMBOLTABLESIZE 1024            /* Bytes */
 //#define HASDATAFLASH
 uint8_t _end;
-#define PSTR(x) (x) /* '[...]teensy4/avr/pgmspace.h:30:39: error: data causes a section type conflict with data' --> ??? How to solve this? */
+
+// '[...]teensy4/avr/pgmspace.h:30:39: error: data causes a section type conflict with data' --> ??? How to solve this?
+#undef PSTR
+#define PSTR(x) (x)
 
 #else 
 #error "Board not supported!"
@@ -468,6 +471,8 @@ const int sck = 41, ssel = 42, mosi = 43, miso = 44;
 const int sck = 34, ssel = 35, mosi = 36, miso = 37;
 #elif defined(ADAFRUIT_GRAND_CENTRAL_M4)
 const int sck = 89, ssel = 90, mosi = 91, miso = 92;
+// #elif defined(__IMXRT1062__)
+// const int sck = 89, ssel = 90, mosi = 91, miso = 92;
 #endif
 
 boolean FlashSetup () {

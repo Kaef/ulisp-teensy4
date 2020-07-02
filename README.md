@@ -1,3 +1,13 @@
+# Update, 02.07.2020
+I'm very happy that the Teensy-4.0 and the Teensy-4.1 boards are now supported by uLisp-3.3a.
+
+Therefore, I will not continue investing in this fork of uLisp, it has done what it was made for:
+showing, that uLisp runs very well on the Teensy-4.0 / 4.1 platforms.
+
+Of cause I will continue supporting uLisp. I think this is a great project and I always have fun using it.
+
+If you like to use uLisp on Teensy please use the version found at http://www.ulisp.com/ .
+
 # Note for Teensy-4.0 board support
 This is a fork of ulisp.arm with added support for Teensy-4.0 board.
 The board is made by pjrc, please see documentation at their webpage.
